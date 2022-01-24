@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main()
+
+{
+     
+int days; 
+     
+printf("In Enter Day :");
+     
+scanf("%d",&days);
+     
+if(days>=7&&days<=15)
+     
+{
+          
+printf("/n Fine is 5 Rupees ");
+     
+}
+     
+else if (days>=15 && days<=20)
+     
+{
+          
+printf("/n Fine is 15 Rupees ");
+     
+}
+     
+else if (days>=20 && days<=30)
+     
+{
+          
+printf("/n Fine is 30 Rupees ");
+     
+}
+     
+else if (days>30)
+     
+{
+          
+printf("/n Your Membership Is Cancelled");
+     
+}
+    
+return 0;
+
+}
